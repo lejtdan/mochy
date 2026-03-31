@@ -4,7 +4,15 @@ import { Pool } from 'pg'
 
 const prismaClientSingleton = () => {
   const connectionString = process.env.DATABASE_URL
-  const pool = new Pool({ connectionString })
+  if (!connectionString) {
+    throw new Error('DATABASE_URL is not set')
+  }
+
+  const pool = new Pool({ 
+    connectionString,
+    max: 10,
+    ssl: { rejectUnauthorized: false }
+  })
   const adapter = new PrismaPg(pool)
   return new PrismaClient({ adapter })
 }

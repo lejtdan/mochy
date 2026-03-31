@@ -1,8 +1,9 @@
 import React, { createContext, useState, useEffect, ReactNode } from 'react';
 import { API_BASE_URL } from '../config';
 import * as SecureStore from 'expo-secure-store';
-import * as Device from 'expo-device';
-import * as Notifications from 'expo-notifications';
+// import * as Device from 'expo-device'; 
+// import * as Notifications from 'expo-notifications';
+import Constants from 'expo-constants';
 import { Platform } from 'react-native';
 
 type UserData = {
@@ -30,7 +31,14 @@ export const AuthContext = createContext<AuthContextType>({
 });
 
 async function registerForPushNotificationsAsync() {
+  // Remote notifications are not supported in Expo Go as of SDK 53.
+  // We've commented this out to avoid crashes during development.
+  /*
   let token;
+  if (Constants.appOwnership === 'expo') {
+    console.warn('Push notifications are not supported in Expo Go. Use a development build for this feature.');
+    return null;
+  }
   if (Platform.OS === 'android') {
     await Notifications.setNotificationChannelAsync('default', {
       name: 'default',
@@ -50,12 +58,13 @@ async function registerForPushNotificationsAsync() {
       console.warn('Failed to get push token for push notification!');
       return;
     }
-    // We pass projectId if using EAS build, but let's default to standard expo setup for mvp
     try {
       token = (await Notifications.getExpoPushTokenAsync()).data;
     } catch (e) { console.warn(e) }
   }
   return token;
+  */
+  return null;
 }
 
 export const AuthProvider = ({ children }: { children: ReactNode }) => {

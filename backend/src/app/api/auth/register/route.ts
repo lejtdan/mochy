@@ -38,8 +38,12 @@ export async function POST(req: Request) {
       },
       { status: 201 }
     )
-  } catch (error) {
+  } catch (error: any) {
     console.error('Error in register:', error)
-    return NextResponse.json({ error: 'Error interno del servidor' }, { status: 500 })
+    return NextResponse.json({ 
+      error: 'Error interno del servidor',
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined,
+      code: error.code || 'UNKNOWN_ERROR'
+    }, { status: 500 })
   }
 }
