@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Mochy - Carpooling",
+    "slug": "mochy-carpooling",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "mochy",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E1E2C"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mochy.carpooling",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "Mochy necesita tu ubicación para mostrarte viajes cercanos.",
+        "NSCameraUsageDescription": "Mochy necesita acceso a la cámara para verificar tu identidad."
+      }
+    },
+    "android": {
+      "package": "com.mochy.carpooling",
+      "versionCode": 1,
+      "usesCleartextTraffic": true,
+      "adaptiveIcon": {
+        "backgroundColor": "#1E1E2C",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#4ADE80"
+        }
+      ],
+      "expo-web-browser"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "75c48871-d306-4121-848c-2eb012f916de"
+      }
+    }
+  }
+}
