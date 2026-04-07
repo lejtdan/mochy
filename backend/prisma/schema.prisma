@@ -7,36 +7,27 @@ datasource db {
 }
 
 model User {
-  id        String   @id @default(uuid())
-  email     String   @unique
-  name      String?
-  password  String?
-  githubId  String?  @unique
-  role      String   @default("PASAJERO") // "CONDUCTOR" o "PASAJERO"
-  avatarUrl String?
-  expoPushToken String?
-  idVerified    Boolean  @default(false)
-  
-  // Rides driven by this user
-  rides     Ride[]   @relation("DriverRides")
-  
-  // Bookings made by this user (Passenger)
-  bookings  Booking[] @relation("PassengerBookings")
-
-  // Messages
-  sentMessages     Message[] @relation("SentMessages")
+  id               String    @id @default(uuid())
+  email            String    @unique
+  name             String?
+  password         String?
+  role             String    @default("PASAJERO")
+  avatarUrl        String?
+  expoPushToken    String?
+  createdAt        DateTime  @default(now())
+  updatedAt        DateTime  @updatedAt
+  verificationStatus String  @default("UNVERIFIED")
+  githubId         String?   @unique
+  bookings         Booking[] @relation("PassengerBookings")
   receivedMessages Message[] @relation("ReceivedMessages")
-  
-  // Reviews
-  reviewsGiven     Review[]  @relation("ReviewAuthor")
+  sentMessages     Message[] @relation("SentMessages")
   reviewsReceived  Review[]  @relation("ReviewSubject")
-  
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  reviewsGiven     Review[]  @relation("ReviewAuthor")
+  rides            Ride[]    @relation("DriverRides")
 }
 
 model Ride {
-  id             String   @id @default(uuid())
+  id             String    @id @default(uuid())
   origin         String
   destination    String
   originLat      Float?
@@ -46,73 +37,51 @@ model Ride {
   date           String
   availableSeats Int
   price          Float
-  status         String   @default("ACTIVO") // ACTIVO, COMPLETADO, CANCELADO
-  
-  // Relación con el Conductor
+  status         String    @default("ACTIVO")
   driverId       String
-  driver         User     @relation("DriverRides", fields: [driverId], references: [id])
-  
-  // Reservas asociadas a este viaje
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
   bookings       Booking[]
-  
-  // Mensajes asociados a este viaje
   messages       Message[]
-
-  // Reseñas hechas durante/después este viaje
-  reviews        Review[] @relation("RideReviews")
-
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  reviews        Review[]  @relation("RideReviews")
+  driver         User      @relation("DriverRides", fields: [driverId], references: [id])
 }
 
 model Booking {
-  id             String   @id @default(uuid())
-  seatsReserved  Int
-  status         String   @default("CONFIRMADA") // PENDIENTE, CONFIRMADA, CANCELADA
-  
-  // Pagos Stripe
-  paymentRef     String?  // Reference ID de Stripe Payment Intent
-  amountPaid     Float?   // Total en centavos o decimales
-
-  passengerId    String
-  passenger      User     @relation("PassengerBookings", fields: [passengerId], references: [id])
-  
-  rideId         String
-  ride           Ride     @relation(fields: [rideId], references: [id])
-  
-  createdAt      DateTime @default(now())
-  updatedAt      DateTime @updatedAt
+  id            String   @id @default(uuid())
+  seatsReserved Int
+  status        String   @default("CONFIRMADA")
+  passengerId   String
+  rideId        String
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  amountPaid    Float?
+  paymentRef    String?
+  passenger     User     @relation("PassengerBookings", fields: [passengerId], references: [id])
+  ride          Ride     @relation(fields: [rideId], references: [id])
 }
 
 model Message {
-  id             String   @id @default(uuid())
-  text           String
-  
-  senderId       String
-  sender         User     @relation("SentMessages", fields: [senderId], references: [id])
-
-  receiverId     String
-  receiver       User     @relation("ReceivedMessages", fields: [receiverId], references: [id])
-
-  rideId         String
-  ride           Ride     @relation(fields: [rideId], references: [id])
-
-  createdAt      DateTime @default(now())
+  id         String   @id @default(uuid())
+  text       String
+  senderId   String
+  receiverId String
+  rideId     String
+  createdAt  DateTime @default(now())
+  receiver   User     @relation("ReceivedMessages", fields: [receiverId], references: [id])
+  ride       Ride     @relation(fields: [rideId], references: [id])
+  sender     User     @relation("SentMessages", fields: [senderId], references: [id])
 }
 
 model Review {
-  id             String   @id @default(uuid())
-  rating         Int
-  comment        String?
-  
-  reviewerId     String
-  reviewer       User     @relation("ReviewAuthor", fields: [reviewerId], references: [id])
-  
-  revieweeId     String
-  reviewee       User     @relation("ReviewSubject", fields: [revieweeId], references: [id])
-  
-  rideId         String
-  ride           Ride     @relation("RideReviews", fields: [rideId], references: [id])
-  
-  createdAt      DateTime @default(now())
+  id         String   @id @default(uuid())
+  rating     Int
+  comment    String?
+  reviewerId String
+  revieweeId String
+  rideId     String
+  createdAt  DateTime @default(now())
+  reviewee   User     @relation("ReviewSubject", fields: [revieweeId], references: [id])
+  reviewer   User     @relation("ReviewAuthor", fields: [reviewerId], references: [id])
+  ride       Ride     @relation("RideReviews", fields: [rideId], references: [id])
 }

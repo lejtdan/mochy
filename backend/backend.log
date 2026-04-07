@@ -1,0 +1,42 @@
+
+> backend@0.1.0 dev
+> next dev -H 0.0.0.0
+
+▲ Next.js 16.2.1 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://0.0.0.0:3000
+- Environments: .env
+✓ Ready in 233ms
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/kiubo/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/kiubo/Downloads/Mochy/backend/package-lock.json
+
+
+ GET /admin 200 in 188ms (next.js: 114ms, application-code: 73ms)
+(node:81203) Warning: SECURITY WARNING: The SSL modes 'prefer', 'require', and 'verify-ca' are treated as aliases for 'verify-full'.
+In the next major version (pg-connection-string v3.0.0 and pg v9.0.0), these modes will adopt standard libpq semantics, which have weaker security guarantees.
+
+To prepare for this change:
+- If you want the current behavior, explicitly use 'sslmode=verify-full'
+- If you want libpq compatibility now, use 'uselibpqcompat=true&sslmode=require'
+
+See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode definitions.
+(Use `node --trace-warnings ...` to show where the warning was created)
+ GET /api/admin/verifications 200 in 756ms (next.js: 94ms, application-code: 662ms)
+ GET /api/admin/verifications 200 in 244ms (next.js: 4ms, application-code: 240ms)
+ GET /api/admin/verifications 200 in 95ms (next.js: 9ms, application-code: 86ms)
+ GET /api/admin/verifications 200 in 887ms (next.js: 3ms, application-code: 884ms)
+ GET /api/admin/verifications 200 in 95ms (next.js: 8ms, application-code: 88ms)
+ GET /api/admin/verifications 200 in 96ms (next.js: 6ms, application-code: 89ms)
+ GET /api/admin/verifications 200 in 90ms (next.js: 5ms, application-code: 85ms)
+ GET /api/admin/verifications 200 in 587ms (next.js: 11ms, application-code: 575ms)
+ GET /api/admin/verifications 200 in 747ms (next.js: 11ms, application-code: 735ms)
+ GET /api/admin/verifications 200 in 596ms (next.js: 21ms, application-code: 574ms)
+ GET /api/admin/verifications 200 in 590ms (next.js: 20ms, application-code: 570ms)
+ GET /api/admin/verifications 200 in 682ms (next.js: 5ms, application-code: 677ms)
+ GET /api/admin/verifications 200 in 1188ms (next.js: 8ms, application-code: 1179ms)
+ GET /api/admin/verifications 200 in 1293ms (next.js: 9ms, application-code: 1284ms)
+ GET /api/admin/verifications 200 in 1730ms (next.js: 27ms, application-code: 1703ms)

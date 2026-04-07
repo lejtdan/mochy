@@ -14,7 +14,7 @@ export async function GET(req: Request, { params }: { params: Promise<{ id: stri
         email: true,
         avatarUrl: true,
         role: true,
-        idVerified: true,
+        verificationStatus: true,
         createdAt: true,
       }
     });

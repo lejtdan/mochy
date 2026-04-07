@@ -17,10 +17,10 @@ export async function PUT(req: Request) {
 
     const user = await prisma.user.update({
       where: { id: decoded.id },
-      data: { idVerified: true },
+      data: { verificationStatus: 'PENDING_REVIEW' },
       select: {
         id: true,
-        idVerified: true
+        verificationStatus: true
       }
     });
 
