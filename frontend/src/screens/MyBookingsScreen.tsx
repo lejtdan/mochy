@@ -15,6 +15,10 @@ type BookingResult = {
     id: string;
     origin: string;
     destination: string;
+    originLat: number | null;
+    originLng: number | null;
+    destLat: number | null;
+    destLng: number | null;
     date: string;
     status: string;  // For checking if ride is COMPLETADO
     driver: {
@@ -116,6 +120,21 @@ export default function MyBookingsScreen({ navigation }: any) {
             >
               <Text style={styles.chatButtonText}>💬 Escribir al Conductor</Text>
             </TouchableOpacity>
+
+            {/* Ver Mapa */}
+            {item.ride.originLat && item.ride.originLng && (
+              <TouchableOpacity 
+                style={styles.mapButton}
+                onPress={() => navigation.navigate('Map', { 
+                  originLat: item.ride.originLat, 
+                  originLng: item.ride.originLng,
+                  destLat: item.ride.destLat,
+                  destLng: item.ride.destLng
+                })}
+              >
+                <Text style={styles.mapButtonText}>📍 Ver Mapa del Viaje</Text>
+              </TouchableOpacity>
+            )}
 
             {/* Ver Perfil del Conductor */}
             <TouchableOpacity 
@@ -258,6 +277,20 @@ const styles = StyleSheet.create({
   },
   reviewButtonText: {
     color: '#FBBF24',
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  mapButton: {
+    marginTop: 8,
+    backgroundColor: 'rgba(59, 130, 246, 0.15)',
+    borderWidth: 1,
+    borderColor: '#3B82F6',
+    paddingVertical: 10,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  mapButtonText: {
+    color: '#60A5FA',
     fontWeight: 'bold',
     fontSize: 14,
   }

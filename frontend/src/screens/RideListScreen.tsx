@@ -10,6 +10,10 @@ type RideResult = {
   id: string;
   origin: string;
   destination: string;
+  originLat: number | null;
+  originLng: number | null;
+  destLat: number | null;
+  destLng: number | null;
   date: string;
   availableSeats: number;
   price: number;
@@ -114,6 +118,20 @@ export default function RideListScreen({ route, navigation }: any) {
               <Text style={styles.bookTxt}>Reservar y Pagar</Text>
             </TouchableOpacity>
 
+            {item.originLat && item.originLng && (
+              <TouchableOpacity 
+                style={styles.mapBtn} 
+                onPress={() => navigation.navigate('Map', { 
+                  originLat: item.originLat, 
+                  originLng: item.originLng,
+                  destLat: item.destLat,
+                  destLng: item.destLng
+                })}
+              >
+                <Text style={styles.mapTxt}>📍 Ver mapa del trayecto</Text>
+              </TouchableOpacity>
+            )}
+
             <TouchableOpacity 
               style={styles.profileBtn}
               onPress={() => navigation.navigate('UserProfile', { userId: item.driver.id })}
@@ -215,6 +233,20 @@ const styles = StyleSheet.create({
   },
   profileTxt: {
     color: '#94A3B8',
+    fontWeight: 'bold',
+    fontSize: 14,
+  },
+  mapBtn: {
+    marginTop: 8,
+    backgroundColor: 'rgba(59, 130, 246, 0.1)',
+    borderWidth: 1,
+    borderColor: '#60A5FA',
+    paddingVertical: 10,
+    borderRadius: 6,
+    alignItems: 'center',
+  },
+  mapTxt: {
+    color: '#60A5FA',
     fontWeight: 'bold',
     fontSize: 14,
   }

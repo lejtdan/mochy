@@ -10,6 +10,10 @@ type Ride = {
   id: string;
   origin: string;
   destination: string;
+  originLat: number | null;
+  originLng: number | null;
+  destLat: number | null;
+  destLng: number | null;
   date: string;
   status: string;
   bookings?: {
@@ -157,12 +161,14 @@ export default function MyRidesScreen({ navigation }: any) {
                 </TouchableOpacity>
               )}
 
-              {(item as any).originLat && (item as any).originLng && (
+              {item.originLat && item.originLng && (
                 <TouchableOpacity 
                   style={[styles.mapBtn, { flex: 1, marginLeft: item.status === 'ACTIVO' ? 8 : 0 }]} 
-                  onPress={() => (navigation as any).navigate('Map', { 
-                    originLat: parseFloat((item as any).originLat), 
-                    originLng: parseFloat((item as any).originLng) 
+                  onPress={() => navigation.navigate('Map', { 
+                    originLat: item.originLat, 
+                    originLng: item.originLng,
+                    destLat: item.destLat,
+                    destLng: item.destLng
                   })}
                 >
                   <Text style={styles.mapTxt}>Ver en Mapa</Text>

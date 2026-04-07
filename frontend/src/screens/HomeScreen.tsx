@@ -4,7 +4,7 @@ import { StyleSheet, Text, View, TouchableOpacity, Alert } from 'react-native';
 import { AuthContext } from '../contexts/AuthContext';
 
 export default function HomeScreen({ navigation }: any) {
-  const { user, token, logout } = useContext(AuthContext);
+  const { user, token, logout, login } = useContext(AuthContext);
   const [verifying, setVerifying] = useState(false);
 
   return (
@@ -52,32 +52,48 @@ export default function HomeScreen({ navigation }: any) {
               </TouchableOpacity>
             </>
           )}
-          {/* Botón Verificar Identidad (ambos roles) */}
-          <TouchableOpacity 
-            style={styles.verifyButton} 
-            disabled={verifying}
-            onPress={async () => {
-              setVerifying(true);
-              try {
-                const res = await fetch(`${API_BASE_URL}/api/users/verify`, {
-                  method: 'PUT',
-                  headers: { 'Authorization': `Bearer ${token}` }
-                });
-                const data = await res.json();
-                if (res.ok) {
-                  Alert.alert('✅ Verificado', data.message);
-                } else {
-                  Alert.alert('Error', data.error);
+          {/* Sección de Verificación de Identidad */}
+          {user.verificationStatus === 'VERIFIED' ? (
+            <View style={[styles.verifyButton, { borderColor: '#4ADE80', backgroundColor: 'rgba(74, 222, 128, 0.1)' }]}>
+              <Text style={[styles.verifyText, { color: '#4ADE80' }]}>✅ Identidad Verificada</Text>
+            </View>
+          ) : user.verificationStatus === 'PENDING_REVIEW' ? (
+            <View style={[styles.verifyButton, { borderColor: '#FBBF24', backgroundColor: 'rgba(251, 191, 36, 0.1)' }]}>
+              <Text style={[styles.verifyText, { color: '#FBBF24' }]}>⏳ Verificación en proceso...</Text>
+            </View>
+          ) : (
+            <TouchableOpacity 
+              style={[styles.verifyButton, user.verificationStatus === 'REJECTED' ? { borderColor: '#EF4444' } : {}]} 
+              disabled={verifying}
+              onPress={async () => {
+                setVerifying(true);
+                try {
+                  const res = await fetch(`${API_BASE_URL}/api/users/verify`, {
+                    method: 'PUT',
+                    headers: { 'Authorization': `Bearer ${token}` }
+                  });
+                  const data = await res.json();
+                  if (res.ok) {
+                    Alert.alert('✅ Solicitud Enviada', 'Un administrador revisará tu solicitud.');
+                    // Update simple context
+                    if (user && token) {
+                      login(token, { ...user, verificationStatus: 'PENDING_REVIEW' });
+                    }
+                  } else {
+                    Alert.alert('Error', data.error);
+                  }
+                } catch(e) {
+                  Alert.alert('Error', 'No se pudo solicitar la verificación');
+                } finally {
+                  setVerifying(false);
                 }
-              } catch(e) {
-                Alert.alert('Error', 'No se pudo verificar');
-              } finally {
-                setVerifying(false);
-              }
-            }}
-          >
-            <Text style={styles.verifyText}>🛡️ Verificar mi Identidad</Text>
-          </TouchableOpacity>
+              }}
+            >
+              <Text style={[styles.verifyText, user.verificationStatus === 'REJECTED' ? { color: '#EF4444' } : {}]}>
+                {user.verificationStatus === 'REJECTED' ? '⚠️ Rechazado - Reintentar' : '🛡️ Solicitar Verificación'}
+              </Text>
+            </TouchableOpacity>
+          )}
 
           {/* Botón Mi Perfil Público */}
           <TouchableOpacity 

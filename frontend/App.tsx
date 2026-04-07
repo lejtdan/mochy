@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import Constants from 'expo-constants';
 import { StatusBar } from 'expo-status-bar';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
@@ -121,8 +122,11 @@ function RootNavigator() {
 }
 
 export default function App() {
+  const publishableKey = Constants.expoConfig?.extra?.STRIPE_KEY || process.env.EXPO_PUBLIC_STRIPE_KEY || '';
+  const MAPBOX_KEY = Constants.expoConfig?.extra?.MAPBOX_KEY || process.env.EXPO_PUBLIC_MAPBOX_KEY;
+  
   return (
-    <StripeProvider publishableKey={process.env.EXPO_PUBLIC_STRIPE_KEY || ''}>
+    <StripeProvider publishableKey={publishableKey}>
       <AuthProvider>
         <NavigationContainer>
           <StatusBar style="light" />

@@ -12,6 +12,7 @@ type UserData = {
   email: string;
   role: string;
   avatarUrl: string | null;
+  verificationStatus: string;
 };
 
 type AuthContextType = {

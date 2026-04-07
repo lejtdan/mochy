@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import { View, TextInput, TouchableOpacity, Text, StyleSheet } from 'react-native';
+import Constants from 'expo-constants';
 
-const MAPBOX_KEY = process.env.EXPO_PUBLIC_MAPBOX_KEY;
+const MAPBOX_KEY = Constants.expoConfig?.extra?.MAPBOX_KEY || process.env.EXPO_PUBLIC_MAPBOX_KEY;
 
 type Suggestion = {
   id: string;
