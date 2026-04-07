@@ -1,0 +1,7 @@
+{
+  "name": "mochy-root",
+  "private": true,
+  "workspaces": [
+    "backend"
+  ]
+}
