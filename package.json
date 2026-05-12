@@ -9,8 +9,7 @@
     "dev": "next dev -H 0.0.0.0",
     "build": "npx prisma generate && next build",
     "start": "next start",
-    "lint": "eslint",
-    "postinstall": "prisma generate"
+    "lint": "eslint"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.6.0",
