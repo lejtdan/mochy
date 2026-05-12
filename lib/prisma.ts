@@ -5,18 +5,14 @@ import { Pool } from 'pg'
 const prismaClientSingleton = () => {
   const connectionString = process.env.DATABASE_URL
 
-  // En Prisma 7, si el esquema no tiene URL, el constructor NECESITA una.
-  // Durante el build de Vercel, si DATABASE_URL no está, usamos una URL dummy 
-  // para que Next.js no falle al importar el módulo.
+  // En Prisma 7, si el esquema no tiene URL, el constructor NECESITA un adapter o un accelerateUrl.
+  // Durante el build de Vercel, si DATABASE_URL no está, usamos un Pool con una URL dummy 
+  // para poder inicializar el adapter y que Next.js no falle en el type check ni al importar.
   if (!connectionString) {
     console.warn('DATABASE_URL not found. Using placeholder for build phase.')
-    return new PrismaClient({
-      datasources: {
-        db: {
-          url: "postgresql://postgres:password@localhost:5432/unused"
-        }
-      }
-    })
+    const dummyPool = new Pool({ connectionString: "postgresql://postgres:password@localhost:5432/unused" })
+    const dummyAdapter = new PrismaPg(dummyPool)
+    return new PrismaClient({ adapter: dummyAdapter })
   }
 
   try {
@@ -26,24 +22,13 @@ const prismaClientSingleton = () => {
       ssl: { rejectUnauthorized: false }
     })
     const adapter = new PrismaPg(pool)
-    return new PrismaClient({ 
-      adapter,
-      datasources: {
-        db: {
-          url: connectionString
-        }
-      }
-    })
+    return new PrismaClient({ adapter })
   } catch (e) {
     console.error('Error initializing Prisma with adapter:', e)
-    // Fallback al cliente estándar si falla el adaptador
-    return new PrismaClient({ 
-      datasources: {
-        db: {
-          url: connectionString
-        }
-      } 
-    })
+    // Fallback en caso de error usando el string original
+    const fallbackPool = new Pool({ connectionString })
+    const fallbackAdapter = new PrismaPg(fallbackPool)
+    return new PrismaClient({ adapter: fallbackAdapter })
   }
 }
 
