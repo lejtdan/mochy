@@ -51,7 +51,13 @@
           "color": "#4ADE80"
         }
       ],
-      "expo-web-browser"
+      "expo-web-browser",
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox"
+        }
+      ]
     ],
     "extra": {
       "eas": {

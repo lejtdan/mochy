@@ -180,3 +180,645 @@ See https://www.postgresql.org/docs/current/libpq-ssl.html for libpq SSL mode de
  GET /api/admin/verifications 200 in 996ms (next.js: 10ms, application-code: 986ms)
  GET /api/admin/verifications 200 in 791ms (next.js: 6ms, application-code: 785ms)
  GET /api/admin/verifications 200 in 700ms (next.js: 13ms, application-code: 686ms)
+ GET /api/admin/verifications 200 in 848ms (next.js: 16ms, application-code: 831ms)
+ GET /api/admin/verifications 200 in 685ms (next.js: 15ms, application-code: 670ms)
+ GET /api/admin/verifications 200 in 604ms (next.js: 24ms, application-code: 579ms)
+ GET /api/admin/verifications 200 in 627ms (next.js: 34ms, application-code: 593ms)
+ GET /api/admin/verifications 200 in 595ms (next.js: 8ms, application-code: 586ms)
+ GET /api/admin/verifications 200 in 623ms (next.js: 16ms, application-code: 607ms)
+ GET /api/admin/verifications 200 in 597ms (next.js: 17ms, application-code: 580ms)
+ GET /api/admin/verifications 200 in 721ms (next.js: 21ms, application-code: 700ms)
+ GET /api/admin/verifications 200 in 807ms (next.js: 13ms, application-code: 793ms)
+ GET /api/admin/verifications 200 in 839ms (next.js: 18ms, application-code: 820ms)
+ GET /api/admin/verifications 200 in 1176ms (next.js: 14ms, application-code: 1162ms)
+ GET /api/admin/verifications 200 in 761ms (next.js: 27ms, application-code: 735ms)
+ GET /api/admin/verifications 200 in 590ms (next.js: 18ms, application-code: 571ms)
+ GET /api/admin/verifications 200 in 753ms (next.js: 19ms, application-code: 733ms)
+ GET /api/admin/verifications 200 in 683ms (next.js: 16ms, application-code: 667ms)
+ GET /api/admin/verifications 200 in 661ms (next.js: 28ms, application-code: 633ms)
+ GET /api/admin/verifications 200 in 615ms (next.js: 24ms, application-code: 591ms)
+ GET /api/admin/verifications 200 in 677ms (next.js: 11ms, application-code: 666ms)
+ GET /api/admin/verifications 200 in 698ms (next.js: 24ms, application-code: 675ms)
+ GET /api/admin/verifications 200 in 736ms (next.js: 20ms, application-code: 716ms)
+ GET /api/admin/verifications 200 in 607ms (next.js: 15ms, application-code: 591ms)
+ GET /api/admin/verifications 200 in 594ms (next.js: 12ms, application-code: 581ms)
+ GET /api/admin/verifications 200 in 1405ms (next.js: 20ms, application-code: 1386ms)
+ GET /api/admin/verifications 200 in 619ms (next.js: 8ms, application-code: 612ms)
+ GET /api/admin/verifications 200 in 925ms (next.js: 18ms, application-code: 906ms)
+ GET /api/admin/verifications 200 in 592ms (next.js: 12ms, application-code: 580ms)
+ GET /api/admin/verifications 200 in 603ms (next.js: 19ms, application-code: 584ms)
+ GET /api/admin/verifications 200 in 629ms (next.js: 25ms, application-code: 604ms)
+ GET /api/admin/verifications 200 in 598ms (next.js: 13ms, application-code: 586ms)
+ GET /api/admin/verifications 200 in 614ms (next.js: 42ms, application-code: 572ms)
+ GET /api/admin/verifications 200 in 626ms (next.js: 20ms, application-code: 606ms)
+ GET /api/admin/verifications 200 in 684ms (next.js: 25ms, application-code: 660ms)
+ GET /api/admin/verifications 200 in 672ms (next.js: 17ms, application-code: 655ms)
+ GET /api/admin/verifications 200 in 593ms (next.js: 12ms, application-code: 581ms)
+ GET /api/admin/verifications 200 in 611ms (next.js: 27ms, application-code: 584ms)
+ GET /api/admin/verifications 200 in 654ms (next.js: 18ms, application-code: 636ms)
+ GET /api/admin/verifications 200 in 607ms (next.js: 33ms, application-code: 574ms)
+ GET /api/admin/verifications 200 in 654ms (next.js: 20ms, application-code: 634ms)
+ GET /api/admin/verifications 200 in 728ms (next.js: 14ms, application-code: 714ms)
+ GET /api/admin/verifications 200 in 683ms (next.js: 21ms, application-code: 663ms)
+ GET /api/admin/verifications 200 in 655ms (next.js: 20ms, application-code: 635ms)
+ GET /api/admin/verifications 200 in 621ms (next.js: 17ms, application-code: 605ms)
+ GET /api/admin/verifications 200 in 753ms (next.js: 51ms, application-code: 702ms)
+ GET /api/admin/verifications 200 in 677ms (next.js: 14ms, application-code: 663ms)
+ GET /api/admin/verifications 200 in 1770ms (next.js: 199ms, application-code: 1571ms)
+ GET /api/admin/verifications 200 in 1165ms (next.js: 37ms, application-code: 1128ms)
+ GET /api/admin/verifications 200 in 615ms (next.js: 10ms, application-code: 605ms)
+ GET /api/admin/verifications 200 in 1281ms (next.js: 35ms, application-code: 1246ms)
+ GET /api/admin/verifications 200 in 760ms (next.js: 40ms, application-code: 720ms)
+ GET /api/admin/verifications 200 in 629ms (next.js: 27ms, application-code: 602ms)
+ GET /api/admin/verifications 200 in 630ms (next.js: 22ms, application-code: 607ms)
+ GET /api/admin/verifications 200 in 619ms (next.js: 19ms, application-code: 600ms)
+ GET /api/admin/verifications 200 in 791ms (next.js: 22ms, application-code: 769ms)
+ GET /api/admin/verifications 200 in 717ms (next.js: 35ms, application-code: 682ms)
+ GET /api/admin/verifications 200 in 801ms (next.js: 11ms, application-code: 791ms)
+ GET /api/admin/verifications 200 in 621ms (next.js: 15ms, application-code: 606ms)
+ GET /api/admin/verifications 200 in 650ms (next.js: 24ms, application-code: 626ms)
+ GET /api/admin/verifications 200 in 652ms (next.js: 21ms, application-code: 631ms)
+ GET /api/admin/verifications 200 in 612ms (next.js: 13ms, application-code: 599ms)
+ GET /api/admin/verifications 200 in 663ms (next.js: 26ms, application-code: 637ms)
+ GET /api/admin/verifications 200 in 610ms (next.js: 21ms, application-code: 589ms)
+ GET /api/admin/verifications 200 in 735ms (next.js: 11ms, application-code: 724ms)
+ GET /api/admin/verifications 200 in 735ms (next.js: 24ms, application-code: 711ms)
+ GET /api/admin/verifications 200 in 750ms (next.js: 84ms, application-code: 665ms)
+ GET /api/admin/verifications 200 in 696ms (next.js: 15ms, application-code: 681ms)
+ GET /api/admin/verifications 200 in 595ms (next.js: 38ms, application-code: 557ms)
+ GET /api/admin/verifications 200 in 689ms (next.js: 15ms, application-code: 675ms)
+ GET /api/admin/verifications 200 in 776ms (next.js: 89ms, application-code: 687ms)
+ GET /api/admin/verifications 200 in 624ms (next.js: 24ms, application-code: 600ms)
+ GET /api/admin/verifications 200 in 632ms (next.js: 21ms, application-code: 611ms)
+ GET /api/admin/verifications 200 in 614ms (next.js: 16ms, application-code: 598ms)
+ GET /api/admin/verifications 200 in 646ms (next.js: 21ms, application-code: 625ms)
+ GET /api/admin/verifications 200 in 672ms (next.js: 26ms, application-code: 646ms)
+ GET /api/admin/verifications 200 in 705ms (next.js: 15ms, application-code: 690ms)
+ GET /api/admin/verifications 200 in 611ms (next.js: 15ms, application-code: 596ms)
+ GET /api/admin/verifications 200 in 654ms (next.js: 21ms, application-code: 633ms)
+ GET /api/admin/verifications 200 in 646ms (next.js: 17ms, application-code: 628ms)
+ GET /api/admin/verifications 200 in 727ms (next.js: 24ms, application-code: 703ms)
+ GET /api/admin/verifications 200 in 732ms (next.js: 12ms, application-code: 721ms)
+ GET /api/admin/verifications 200 in 640ms (next.js: 17ms, application-code: 623ms)
+ GET /api/admin/verifications 200 in 669ms (next.js: 18ms, application-code: 650ms)
+ GET /api/admin/verifications 200 in 759ms (next.js: 24ms, application-code: 735ms)
+ GET /api/admin/verifications 200 in 713ms (next.js: 31ms, application-code: 682ms)
+ GET /api/admin/verifications 200 in 693ms (next.js: 17ms, application-code: 677ms)
+ GET /api/admin/verifications 200 in 620ms (next.js: 24ms, application-code: 596ms)
+ GET /api/admin/verifications 200 in 615ms (next.js: 14ms, application-code: 601ms)
+ GET /api/admin/verifications 200 in 656ms (next.js: 35ms, application-code: 621ms)
+ GET /api/admin/verifications 200 in 661ms (next.js: 21ms, application-code: 640ms)
+ GET /api/admin/verifications 200 in 697ms (next.js: 34ms, application-code: 663ms)
+ GET /api/admin/verifications 200 in 1122ms (next.js: 45ms, application-code: 1077ms)
+ GET /api/admin/verifications 200 in 588ms (next.js: 14ms, application-code: 575ms)
+ GET /api/admin/verifications 200 in 623ms (next.js: 20ms, application-code: 603ms)
+ GET /api/admin/verifications 200 in 623ms (next.js: 22ms, application-code: 602ms)
+ GET /api/admin/verifications 200 in 626ms (next.js: 35ms, application-code: 591ms)
+ GET /api/admin/verifications 200 in 929ms (next.js: 21ms, application-code: 908ms)
+ GET /api/admin/verifications 200 in 637ms (next.js: 17ms, application-code: 620ms)
+ GET /api/admin/verifications 200 in 660ms (next.js: 17ms, application-code: 643ms)
+ GET /api/admin/verifications 200 in 680ms (next.js: 19ms, application-code: 660ms)
+ GET /api/admin/verifications 200 in 1048ms (next.js: 15ms, application-code: 1033ms)
+ GET /api/admin/verifications 200 in 806ms (next.js: 22ms, application-code: 784ms)
+ GET /api/admin/verifications 200 in 613ms (next.js: 27ms, application-code: 587ms)
+ GET /api/admin/verifications 200 in 1064ms (next.js: 18ms, application-code: 1046ms)
+ GET /api/admin/verifications 200 in 762ms (next.js: 23ms, application-code: 738ms)
+ GET /api/admin/verifications 200 in 876ms (next.js: 18ms, application-code: 858ms)
+ GET /api/admin/verifications 200 in 731ms (next.js: 22ms, application-code: 709ms)
+ GET /api/admin/verifications 200 in 981ms (next.js: 136ms, application-code: 845ms)
+ GET /api/admin/verifications 200 in 755ms (next.js: 34ms, application-code: 721ms)
+ GET /api/admin/verifications 200 in 729ms (next.js: 32ms, application-code: 697ms)
+ GET /api/admin/verifications 200 in 741ms (next.js: 34ms, application-code: 707ms)
+ GET /api/admin/verifications 200 in 641ms (next.js: 16ms, application-code: 626ms)
+ GET /api/admin/verifications 200 in 604ms (next.js: 14ms, application-code: 591ms)
+ GET /api/admin/verifications 200 in 619ms (next.js: 10ms, application-code: 610ms)
+ GET /api/admin/verifications 200 in 711ms (next.js: 15ms, application-code: 696ms)
+ GET /api/admin/verifications 200 in 589ms (next.js: 30ms, application-code: 559ms)
+ GET /api/admin/verifications 200 in 626ms (next.js: 20ms, application-code: 606ms)
+ GET /api/admin/verifications 200 in 662ms (next.js: 29ms, application-code: 633ms)
+ GET /api/admin/verifications 200 in 614ms (next.js: 23ms, application-code: 591ms)
+ GET /api/admin/verifications 200 in 667ms (next.js: 30ms, application-code: 637ms)
+ GET /api/admin/verifications 200 in 687ms (next.js: 27ms, application-code: 660ms)
+ GET /api/admin/verifications 200 in 602ms (next.js: 27ms, application-code: 574ms)
+ GET /api/admin/verifications 200 in 606ms (next.js: 21ms, application-code: 585ms)
+ GET /api/admin/verifications 200 in 580ms (next.js: 11ms, application-code: 569ms)
+ GET /api/admin/verifications 200 in 629ms (next.js: 24ms, application-code: 604ms)
+ GET /api/admin/verifications 200 in 666ms (next.js: 17ms, application-code: 649ms)
+ GET /api/admin/verifications 200 in 824ms (next.js: 24ms, application-code: 800ms)
+ GET /api/admin/verifications 200 in 674ms (next.js: 25ms, application-code: 650ms)
+ GET /api/admin/verifications 200 in 755ms (next.js: 20ms, application-code: 735ms)
+ GET /api/admin/verifications 200 in 753ms (next.js: 17ms, application-code: 736ms)
+ GET /api/admin/verifications 200 in 603ms (next.js: 23ms, application-code: 579ms)
+ GET /api/admin/verifications 200 in 722ms (next.js: 21ms, application-code: 700ms)
+ GET /api/admin/verifications 200 in 615ms (next.js: 34ms, application-code: 581ms)
+ GET /api/admin/verifications 200 in 672ms (next.js: 33ms, application-code: 639ms)
+ GET /api/admin/verifications 200 in 649ms (next.js: 19ms, application-code: 630ms)
+ GET /api/admin/verifications 200 in 636ms (next.js: 38ms, application-code: 598ms)
+ GET /api/admin/verifications 200 in 649ms (next.js: 23ms, application-code: 627ms)
+ GET /api/admin/verifications 200 in 582ms (next.js: 8ms, application-code: 574ms)
+ GET /api/admin/verifications 200 in 827ms (next.js: 26ms, application-code: 802ms)
+ GET /api/admin/verifications 200 in 620ms (next.js: 28ms, application-code: 592ms)
+ GET /api/admin/verifications 200 in 642ms (next.js: 33ms, application-code: 609ms)
+ GET /api/admin/verifications 200 in 601ms (next.js: 21ms, application-code: 580ms)
+ GET /api/admin/verifications 200 in 686ms (next.js: 27ms, application-code: 659ms)
+ GET /api/admin/verifications 200 in 614ms (next.js: 27ms, application-code: 587ms)
+ GET /api/admin/verifications 200 in 619ms (next.js: 28ms, application-code: 591ms)
+ GET /api/admin/verifications 200 in 767ms (next.js: 29ms, application-code: 738ms)
+ GET /api/admin/verifications 200 in 605ms (next.js: 17ms, application-code: 588ms)
+ GET /api/admin/verifications 200 in 646ms (next.js: 34ms, application-code: 612ms)
+ GET /api/admin/verifications 200 in 633ms (next.js: 24ms, application-code: 609ms)
+ GET /api/admin/verifications 200 in 609ms (next.js: 13ms, application-code: 596ms)
+ GET /api/admin/verifications 200 in 604ms (next.js: 19ms, application-code: 584ms)
+ GET /api/admin/verifications 200 in 668ms (next.js: 31ms, application-code: 638ms)
+ GET /api/admin/verifications 200 in 715ms (next.js: 12ms, application-code: 703ms)
+ GET /api/admin/verifications 200 in 594ms (next.js: 23ms, application-code: 572ms)
+ GET /api/admin/verifications 200 in 640ms (next.js: 28ms, application-code: 612ms)
+ GET /api/admin/verifications 200 in 607ms (next.js: 19ms, application-code: 587ms)
+ GET /api/admin/verifications 200 in 723ms (next.js: 24ms, application-code: 699ms)
+ GET /api/admin/verifications 200 in 612ms (next.js: 16ms, application-code: 597ms)
+ GET /api/admin/verifications 200 in 708ms (next.js: 31ms, application-code: 676ms)
+ GET /api/admin/verifications 200 in 661ms (next.js: 20ms, application-code: 641ms)
+ GET /api/admin/verifications 200 in 623ms (next.js: 30ms, application-code: 593ms)
+ GET /api/admin/verifications 200 in 611ms (next.js: 13ms, application-code: 598ms)
+ GET /api/admin/verifications 200 in 739ms (next.js: 19ms, application-code: 720ms)
+ GET /api/admin/verifications 200 in 600ms (next.js: 16ms, application-code: 584ms)
+ GET /api/admin/verifications 200 in 599ms (next.js: 16ms, application-code: 583ms)
+ GET /api/admin/verifications 200 in 749ms (next.js: 12ms, application-code: 738ms)
+ GET /api/admin/verifications 200 in 642ms (next.js: 31ms, application-code: 611ms)
+ GET /api/admin/verifications 200 in 638ms (next.js: 23ms, application-code: 615ms)
+ GET /api/admin/verifications 200 in 894ms (next.js: 37ms, application-code: 858ms)
+ GET /api/admin/verifications 200 in 597ms (next.js: 13ms, application-code: 584ms)
+Error fetching pending verifications: Error [PrismaClientKnownRequestError]: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany()` invocation in
+/Users/kiubo/Downloads/Mochy/backend/.next/dev/server/chunks/[root-of-the-server]__0j7c6~4._.js:186:203
+
+  183         status: 403
+  184     });
+  185 }
+→ 186 const pendingUsers = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany(
+Can't reach database server at ep-raspy-dew-anllx0xc-pooler.c-6.us-east-1.aws.neon.tech
+    at <unknown> (src/app/api/admin/verifications/route.ts:18:44)
+    at async GET (src/app/api/admin/verifications/route.ts:18:26)
+  16 |     }
+  17 |
+> 18 |     const pendingUsers = await prisma.user.findMany({
+     |                                            ^
+  19 |       where: {
+  20 |         verificationStatus: 'PENDING_REVIEW'
+  21 |       }, {
+  code: 'P1001',
+  meta: {
+    modelName: 'User',
+    driverAdapterError: Error [DriverAdapterError]: DatabaseNotReachable
+        at async GET (src/app/api/admin/verifications/route.ts:18:26)
+      16 |     }
+      17 |
+    > 18 |     const pendingUsers = await prisma.user.findMany({
+         |                          ^
+      19 |       where: {
+      20 |         verificationStatus: 'PENDING_REVIEW'
+      21 |       }, {
+      [cause]: [Object]
+    }
+  },
+  clientVersion: '7.6.0'
+}
+ GET /api/admin/verifications 500 in 1648ms (next.js: 534ms, application-code: 1114ms)
+ GET /api/admin/verifications 200 in 1021ms (next.js: 25ms, application-code: 995ms)
+ GET /api/admin/verifications 200 in 1380ms (next.js: 13ms, application-code: 1367ms)
+ GET /api/admin/verifications 200 in 729ms (next.js: 14ms, application-code: 715ms)
+ GET /api/admin/verifications 200 in 1643ms (next.js: 21ms, application-code: 1622ms)
+ GET /api/admin/verifications 200 in 2.0s (next.js: 276ms, application-code: 1757ms)
+ GET /api/admin/verifications 200 in 845ms (next.js: 32ms, application-code: 812ms)
+ GET /api/admin/verifications 200 in 1558ms (next.js: 17ms, application-code: 1541ms)
+ GET /api/admin/verifications 200 in 748ms (next.js: 15ms, application-code: 733ms)
+ GET /api/admin/verifications 200 in 737ms (next.js: 20ms, application-code: 718ms)
+ GET /api/admin/verifications 200 in 731ms (next.js: 17ms, application-code: 713ms)
+ GET /api/admin/verifications 200 in 660ms (next.js: 16ms, application-code: 644ms)
+ GET /api/admin/verifications 200 in 805ms (next.js: 21ms, application-code: 784ms)
+ GET /api/admin/verifications 200 in 892ms (next.js: 15ms, application-code: 876ms)
+ GET /api/admin/verifications 200 in 4.4s (next.js: 22ms, application-code: 4.4s)
+ GET /api/admin/verifications 200 in 18.0s (next.js: 15ms, application-code: 18.0s)
+Error fetching pending verifications: Error [PrismaClientKnownRequestError]: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany()` invocation in
+/Users/kiubo/Downloads/Mochy/backend/.next/dev/server/chunks/[root-of-the-server]__0j7c6~4._.js:186:203
+
+  183         status: 403
+  184     });
+  185 }
+→ 186 const pendingUsers = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany(
+Server has closed the connection.
+    at <unknown> (src/app/api/admin/verifications/route.ts:18:44)
+    at async GET (src/app/api/admin/verifications/route.ts:18:26)
+  16 |     }
+  17 |
+> 18 |     const pendingUsers = await prisma.user.findMany({
+     |                                            ^
+  19 |       where: {
+  20 |         verificationStatus: 'PENDING_REVIEW'
+  21 |       }, {
+  code: 'P1017',
+  meta: {
+    modelName: 'User',
+    driverAdapterError: Error [DriverAdapterError]: ConnectionClosed
+        at async GET (src/app/api/admin/verifications/route.ts:18:26)
+      16 |     }
+      17 |
+    > 18 |     const pendingUsers = await prisma.user.findMany({
+         |                          ^
+      19 |       where: {
+      20 |         verificationStatus: 'PENDING_REVIEW'
+      21 |       }, {
+      [cause]: [Object]
+    }
+  },
+  clientVersion: '7.6.0'
+}
+ GET /api/admin/verifications 500 in 16.6min (next.js: 228ms, application-code: 16.6min)
+Error fetching pending verifications: Error [PrismaClientKnownRequestError]: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany()` invocation in
+/Users/kiubo/Downloads/Mochy/backend/.next/dev/server/chunks/[root-of-the-server]__0j7c6~4._.js:186:203
+
+  183         status: 403
+  184     });
+  185 }
+→ 186 const pendingUsers = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany(
+Can't reach database server at ep-raspy-dew-anllx0xc-pooler.c-6.us-east-1.aws.neon.tech
+    at <unknown> (src/app/api/admin/verifications/route.ts:18:44)
+    at async GET (src/app/api/admin/verifications/route.ts:18:26)
+  16 |     }
+  17 |
+> 18 |     const pendingUsers = await prisma.user.findMany({
+     |                                            ^
+  19 |       where: {
+  20 |         verificationStatus: 'PENDING_REVIEW'
+  21 |       }, {
+  code: 'P1001',
+  meta: {
+    modelName: 'User',
+    driverAdapterError: Error [DriverAdapterError]: DatabaseNotReachable
+        at async GET (src/app/api/admin/verifications/route.ts:18:26)
+      16 |     }
+      17 |
+    > 18 |     const pendingUsers = await prisma.user.findMany({
+         |                          ^
+      19 |       where: {
+      20 |         verificationStatus: 'PENDING_REVIEW'
+      21 |       }, {
+      [cause]: [Object]
+    }
+  },
+  clientVersion: '7.6.0'
+}
+ GET /api/admin/verifications 500 in 8.8min (next.js: 112ms, application-code: 8.8min)
+ GET /api/admin/verifications 200 in 1697ms (next.js: 11ms, application-code: 1686ms)
+ GET /api/admin/verifications 200 in 2.1s (next.js: 15ms, application-code: 2.1s)
+ GET /api/admin/verifications 200 in 1184ms (next.js: 14ms, application-code: 1170ms)
+ GET /api/admin/verifications 200 in 17.3min (next.js: 17.2min, application-code: 3.2s)
+ GET /api/admin/verifications 200 in 2.5s (next.js: 80ms, application-code: 2.4s)
+ GET /api/admin/verifications 200 in 13.2s (next.js: 10ms, application-code: 13.2s)
+ GET /api/admin/verifications 200 in 9.5s (next.js: 96ms, application-code: 9.4s)
+ GET /api/admin/verifications 200 in 1818ms (next.js: 16ms, application-code: 1802ms)
+ GET /api/admin/verifications 200 in 1854ms (next.js: 139ms, application-code: 1715ms)
+ GET /api/admin/verifications 200 in 2.2s (next.js: 23ms, application-code: 2.2s)
+ GET /api/admin/verifications 200 in 1551ms (next.js: 22ms, application-code: 1528ms)
+Error fetching pending verifications: Error [PrismaClientKnownRequestError]: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany()` invocation in
+/Users/kiubo/Downloads/Mochy/backend/.next/dev/server/chunks/[root-of-the-server]__0j7c6~4._.js:186:203
+
+  183         status: 403
+  184     });
+  185 }
+→ 186 const pendingUsers = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany(
+Can't reach database server at ep-raspy-dew-anllx0xc-pooler.c-6.us-east-1.aws.neon.tech
+    at <unknown> (src/app/api/admin/verifications/route.ts:18:44)
+    at async GET (src/app/api/admin/verifications/route.ts:18:26)
+  16 |     }
+  17 |
+> 18 |     const pendingUsers = await prisma.user.findMany({
+     |                                            ^
+  19 |       where: {
+  20 |         verificationStatus: 'PENDING_REVIEW'
+  21 |       }, {
+  code: 'P1001',
+  meta: {
+    modelName: 'User',
+    driverAdapterError: Error [DriverAdapterError]: DatabaseNotReachable
+        at async GET (src/app/api/admin/verifications/route.ts:18:26)
+      16 |     }
+      17 |
+    > 18 |     const pendingUsers = await prisma.user.findMany({
+         |                          ^
+      19 |       where: {
+      20 |         verificationStatus: 'PENDING_REVIEW'
+      21 |       }, {
+      [cause]: [Object]
+    }
+  },
+  clientVersion: '7.6.0'
+}
+ GET /api/admin/verifications 500 in 3.4min (next.js: 1007ms, application-code: 3.4min)
+ GET /api/admin/verifications 200 in 1391ms (next.js: 10ms, application-code: 1382ms)
+ GET /api/admin/verifications 200 in 792ms (next.js: 20ms, application-code: 772ms)
+ GET /api/admin/verifications 200 in 2.9s (next.js: 248ms, application-code: 2.7s)
+ GET /api/admin/verifications 200 in 969ms (next.js: 30ms, application-code: 939ms)
+ GET /api/admin/verifications 200 in 1299ms (next.js: 17ms, application-code: 1282ms)
+ GET /api/admin/verifications 200 in 3.2s (next.js: 864ms, application-code: 2.4s)
+ GET /api/admin/verifications 200 in 1528ms (next.js: 70ms, application-code: 1458ms)
+ GET /api/admin/verifications 200 in 1345ms (next.js: 13ms, application-code: 1332ms)
+ GET /api/admin/verifications 200 in 1340ms (next.js: 18ms, application-code: 1322ms)
+ GET /api/admin/verifications 200 in 84s (next.js: 29ms, application-code: 84s)
+ GET /api/admin/verifications 200 in 2.4s (next.js: 399ms, application-code: 1976ms)
+ GET /api/admin/verifications 200 in 660ms (next.js: 36ms, application-code: 624ms)
+ GET /api/admin/verifications 200 in 626ms (next.js: 27ms, application-code: 599ms)
+ GET /api/admin/verifications 200 in 655ms (next.js: 20ms, application-code: 634ms)
+ GET /api/admin/verifications 200 in 688ms (next.js: 34ms, application-code: 654ms)
+ GET /api/admin/verifications 200 in 614ms (next.js: 17ms, application-code: 596ms)
+ GET /api/admin/verifications 200 in 601ms (next.js: 14ms, application-code: 586ms)
+ GET /api/admin/verifications 200 in 756ms (next.js: 21ms, application-code: 735ms)
+ GET /api/admin/verifications 200 in 682ms (next.js: 12ms, application-code: 669ms)
+ GET /api/admin/verifications 200 in 672ms (next.js: 46ms, application-code: 626ms)
+ GET /api/admin/verifications 200 in 755ms (next.js: 93ms, application-code: 663ms)
+ GET /api/admin/verifications 200 in 641ms (next.js: 21ms, application-code: 619ms)
+ GET /api/admin/verifications 200 in 1985ms (next.js: 26ms, application-code: 1958ms)
+ GET /api/admin/verifications 200 in 710ms (next.js: 18ms, application-code: 692ms)
+ GET /api/admin/verifications 200 in 669ms (next.js: 17ms, application-code: 652ms)
+ GET /api/admin/verifications 200 in 645ms (next.js: 17ms, application-code: 628ms)
+ GET /api/admin/verifications 200 in 629ms (next.js: 16ms, application-code: 614ms)
+ GET /api/admin/verifications 200 in 666ms (next.js: 28ms, application-code: 638ms)
+ GET /api/admin/verifications 200 in 631ms (next.js: 16ms, application-code: 615ms)
+ GET /api/admin/verifications 200 in 632ms (next.js: 22ms, application-code: 610ms)
+ GET /api/admin/verifications 200 in 652ms (next.js: 17ms, application-code: 635ms)
+ GET /api/admin/verifications 200 in 719ms (next.js: 18ms, application-code: 700ms)
+ GET /api/admin/verifications 200 in 670ms (next.js: 23ms, application-code: 648ms)
+ GET /api/admin/verifications 200 in 623ms (next.js: 13ms, application-code: 611ms)
+ GET /api/admin/verifications 200 in 1104ms (next.js: 14ms, application-code: 1090ms)
+ GET /api/admin/verifications 200 in 782ms (next.js: 17ms, application-code: 765ms)
+ GET /api/admin/verifications 200 in 621ms (next.js: 10ms, application-code: 611ms)
+ GET /api/admin/verifications 200 in 667ms (next.js: 35ms, application-code: 632ms)
+ GET /api/admin/verifications 200 in 721ms (next.js: 18ms, application-code: 704ms)
+ GET /api/admin/verifications 200 in 638ms (next.js: 22ms, application-code: 616ms)
+ GET /api/admin/verifications 200 in 630ms (next.js: 17ms, application-code: 613ms)
+ GET /api/admin/verifications 200 in 792ms (next.js: 15ms, application-code: 777ms)
+ GET /api/admin/verifications 200 in 596ms (next.js: 11ms, application-code: 585ms)
+ GET /api/admin/verifications 200 in 623ms (next.js: 14ms, application-code: 609ms)
+ GET /api/admin/verifications 200 in 639ms (next.js: 14ms, application-code: 624ms)
+ GET /api/admin/verifications 200 in 735ms (next.js: 31ms, application-code: 704ms)
+ GET /api/admin/verifications 200 in 653ms (next.js: 28ms, application-code: 625ms)
+ GET /api/admin/verifications 200 in 800ms (next.js: 23ms, application-code: 777ms)
+ GET /api/admin/verifications 200 in 652ms (next.js: 31ms, application-code: 621ms)
+ GET /api/admin/verifications 200 in 598ms (next.js: 12ms, application-code: 586ms)
+ GET /api/admin/verifications 200 in 601ms (next.js: 19ms, application-code: 582ms)
+ GET /api/admin/verifications 200 in 605ms (next.js: 16ms, application-code: 589ms)
+ GET /api/admin/verifications 200 in 658ms (next.js: 12ms, application-code: 646ms)
+ GET /api/admin/verifications 200 in 664ms (next.js: 21ms, application-code: 643ms)
+ GET /api/admin/verifications 200 in 635ms (next.js: 31ms, application-code: 604ms)
+ GET /api/admin/verifications 200 in 613ms (next.js: 17ms, application-code: 596ms)
+ GET /api/admin/verifications 200 in 656ms (next.js: 18ms, application-code: 638ms)
+ GET /api/admin/verifications 200 in 636ms (next.js: 26ms, application-code: 611ms)
+ GET /api/admin/verifications 200 in 645ms (next.js: 22ms, application-code: 623ms)
+ GET /api/admin/verifications 200 in 795ms (next.js: 13ms, application-code: 782ms)
+ GET /api/admin/verifications 200 in 655ms (next.js: 21ms, application-code: 634ms)
+ GET /api/admin/verifications 200 in 628ms (next.js: 17ms, application-code: 611ms)
+ GET /api/admin/verifications 200 in 625ms (next.js: 34ms, application-code: 590ms)
+ GET /api/admin/verifications 200 in 614ms (next.js: 17ms, application-code: 597ms)
+ GET /api/admin/verifications 200 in 1010ms (next.js: 202ms, application-code: 807ms)
+ GET /api/admin/verifications 200 in 663ms (next.js: 18ms, application-code: 645ms)
+ GET /api/admin/verifications 200 in 676ms (next.js: 23ms, application-code: 653ms)
+ GET /api/admin/verifications 200 in 740ms (next.js: 19ms, application-code: 721ms)
+ GET /api/admin/verifications 200 in 635ms (next.js: 40ms, application-code: 594ms)
+ GET /api/admin/verifications 200 in 613ms (next.js: 24ms, application-code: 589ms)
+ GET /api/admin/verifications 200 in 621ms (next.js: 21ms, application-code: 599ms)
+ GET /api/admin/verifications 200 in 598ms (next.js: 15ms, application-code: 583ms)
+ GET /api/admin/verifications 200 in 590ms (next.js: 23ms, application-code: 567ms)
+ GET /api/admin/verifications 200 in 693ms (next.js: 18ms, application-code: 675ms)
+ GET /api/admin/verifications 200 in 631ms (next.js: 19ms, application-code: 612ms)
+ GET /api/admin/verifications 200 in 628ms (next.js: 18ms, application-code: 610ms)
+ GET /api/admin/verifications 200 in 662ms (next.js: 20ms, application-code: 642ms)
+ GET /api/admin/verifications 200 in 793ms (next.js: 19ms, application-code: 774ms)
+ GET /api/admin/verifications 200 in 634ms (next.js: 11ms, application-code: 622ms)
+ GET /api/admin/verifications 200 in 598ms (next.js: 26ms, application-code: 572ms)
+ GET /api/admin/verifications 200 in 672ms (next.js: 20ms, application-code: 652ms)
+ GET /api/admin/verifications 200 in 599ms (next.js: 13ms, application-code: 585ms)
+ GET /api/admin/verifications 200 in 597ms (next.js: 13ms, application-code: 585ms)
+ GET /api/admin/verifications 200 in 734ms (next.js: 21ms, application-code: 712ms)
+ GET /api/admin/verifications 200 in 641ms (next.js: 26ms, application-code: 615ms)
+ GET /api/admin/verifications 200 in 615ms (next.js: 22ms, application-code: 593ms)
+ GET /api/admin/verifications 200 in 622ms (next.js: 31ms, application-code: 592ms)
+ GET /api/admin/verifications 200 in 729ms (next.js: 19ms, application-code: 711ms)
+ GET /api/admin/verifications 200 in 601ms (next.js: 13ms, application-code: 589ms)
+ GET /api/admin/verifications 200 in 731ms (next.js: 17ms, application-code: 714ms)
+[browser] TypeError: Failed to fetch
+    at fetchPending (src/app/admin/page.tsx:63:25)
+  61 |     if (!token) return;
+  62 |     try {
+> 63 |       const res = await fetch('/api/admin/verifications', {
+     |                         ^
+  64 |         headers: { 'Authorization': `Bearer ${token}` }
+  65 |       });
+  66 |       if (res.ok) { (src/app/admin/page.tsx:73:15)
+Error fetching pending verifications: Error [PrismaClientKnownRequestError]: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany()` invocation in
+/Users/kiubo/Downloads/Mochy/backend/.next/dev/server/chunks/[root-of-the-server]__0j7c6~4._.js:186:203
+
+  183         status: 403
+  184     });
+  185 }
+→ 186 const pendingUsers = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany(
+Can't reach database server at ep-raspy-dew-anllx0xc-pooler.c-6.us-east-1.aws.neon.tech
+    at <unknown> (src/app/api/admin/verifications/route.ts:18:44)
+    at async GET (src/app/api/admin/verifications/route.ts:18:26)
+  16 |     }
+  17 |
+> 18 |     const pendingUsers = await prisma.user.findMany({
+     |                                            ^
+  19 |       where: {
+  20 |         verificationStatus: 'PENDING_REVIEW'
+  21 |       }, {
+  code: 'P1001',
+  meta: {
+    modelName: 'User',
+    driverAdapterError: Error [DriverAdapterError]: DatabaseNotReachable
+        at async GET (src/app/api/admin/verifications/route.ts:18:26)
+      16 |     }
+      17 |
+    > 18 |     const pendingUsers = await prisma.user.findMany({
+         |                          ^
+      19 |       where: {
+      20 |         verificationStatus: 'PENDING_REVIEW'
+      21 |       }, {
+      [cause]: [Object]
+    }
+  },
+  clientVersion: '7.6.0'
+}
+ GET /api/admin/verifications 500 in 576ms (next.js: 36ms, application-code: 540ms)
+Error fetching pending verifications: Error [PrismaClientKnownRequestError]: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany()` invocation in
+/Users/kiubo/Downloads/Mochy/backend/.next/dev/server/chunks/[root-of-the-server]__0j7c6~4._.js:186:203
+
+  183         status: 403
+  184     });
+  185 }
+→ 186 const pendingUsers = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany(
+Can't reach database server at ep-raspy-dew-anllx0xc-pooler.c-6.us-east-1.aws.neon.tech
+    at <unknown> (src/app/api/admin/verifications/route.ts:18:44)
+    at async GET (src/app/api/admin/verifications/route.ts:18:26)
+  16 |     }
+  17 |
+> 18 |     const pendingUsers = await prisma.user.findMany({
+     |                                            ^
+  19 |       where: {
+  20 |         verificationStatus: 'PENDING_REVIEW'
+  21 |       }, {
+  code: 'P1001',
+  meta: {
+    modelName: 'User',
+    driverAdapterError: Error [DriverAdapterError]: DatabaseNotReachable
+        at async GET (src/app/api/admin/verifications/route.ts:18:26)
+      16 |     }
+      17 |
+    > 18 |     const pendingUsers = await prisma.user.findMany({
+         |                          ^
+      19 |       where: {
+      20 |         verificationStatus: 'PENDING_REVIEW'
+      21 |       }, {
+      [cause]: [Object]
+    }
+  },
+  clientVersion: '7.6.0'
+}
+ GET /api/admin/verifications 500 in 191ms (next.js: 9ms, application-code: 181ms)
+ GET /api/admin/verifications 200 in 5.1s (next.js: 1604ms, application-code: 3.5s)
+ GET /api/admin/verifications 200 in 2.9s (next.js: 189ms, application-code: 2.8s)
+Error fetching pending verifications: Error [PrismaClientKnownRequestError]: 
+Invalid `__TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany()` invocation in
+/Users/kiubo/Downloads/Mochy/backend/.next/dev/server/chunks/[root-of-the-server]__0j7c6~4._.js:186:203
+
+  183         status: 403
+  184     });
+  185 }
+→ 186 const pendingUsers = await __TURBOPACK__imported__module__$5b$project$5d2f$Downloads$2f$Mochy$2f$backend$2f$src$2f$lib$2f$prisma$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["prisma"].user.findMany(
+Can't reach database server at ep-raspy-dew-anllx0xc-pooler.c-6.us-east-1.aws.neon.tech
+    at <unknown> (src/app/api/admin/verifications/route.ts:18:44)
+    at async GET (src/app/api/admin/verifications/route.ts:18:26)
+  16 |     }
+  17 |
+> 18 |     const pendingUsers = await prisma.user.findMany({
+     |                                            ^
+  19 |       where: {
+  20 |         verificationStatus: 'PENDING_REVIEW'
+  21 |       }, {
+  code: 'P1001',
+  meta: {
+    modelName: 'User',
+    driverAdapterError: Error [DriverAdapterError]: DatabaseNotReachable
+        at async GET (src/app/api/admin/verifications/route.ts:18:26)
+      16 |     }
+      17 |
+    > 18 |     const pendingUsers = await prisma.user.findMany({
+         |                          ^
+      19 |       where: {
+      20 |         verificationStatus: 'PENDING_REVIEW'
+      21 |       }, {
+      [cause]: [Object]
+    }
+  },
+  clientVersion: '7.6.0'
+}
+ GET /api/admin/verifications 500 in 316ms (next.js: 23ms, application-code: 293ms)
+ GET /api/admin/verifications 200 in 836ms (next.js: 19ms, application-code: 816ms)
+ GET /api/admin/verifications 200 in 1841ms (next.js: 119ms, application-code: 1722ms)
+ GET /api/admin/verifications 200 in 743ms (next.js: 28ms, application-code: 714ms)
+ GET /api/admin/verifications 200 in 735ms (next.js: 42ms, application-code: 694ms)
+ GET /api/admin/verifications 200 in 709ms (next.js: 26ms, application-code: 683ms)
+ GET /api/admin/verifications 200 in 690ms (next.js: 15ms, application-code: 675ms)
+ GET /api/admin/verifications 200 in 713ms (next.js: 14ms, application-code: 699ms)
+ GET /api/admin/verifications 200 in 689ms (next.js: 25ms, application-code: 664ms)
+ GET /api/admin/verifications 200 in 982ms (next.js: 25ms, application-code: 957ms)
+ GET /api/admin/verifications 200 in 676ms (next.js: 17ms, application-code: 660ms)
+ GET /api/admin/verifications 200 in 720ms (next.js: 20ms, application-code: 700ms)
+ GET /api/admin/verifications 200 in 682ms (next.js: 23ms, application-code: 659ms)
+ GET /api/admin/verifications 200 in 741ms (next.js: 19ms, application-code: 722ms)
+ GET /api/admin/verifications 200 in 727ms (next.js: 27ms, application-code: 700ms)
+ GET /api/admin/verifications 200 in 717ms (next.js: 25ms, application-code: 692ms)
+ GET /api/admin/verifications 200 in 731ms (next.js: 17ms, application-code: 714ms)
+ GET /api/admin/verifications 200 in 692ms (next.js: 18ms, application-code: 675ms)
+ GET /api/admin/verifications 200 in 707ms (next.js: 26ms, application-code: 681ms)
+ GET /api/admin/verifications 200 in 662ms (next.js: 13ms, application-code: 649ms)
+ GET /api/admin/verifications 200 in 673ms (next.js: 16ms, application-code: 658ms)
+ GET /api/admin/verifications 200 in 705ms (next.js: 32ms, application-code: 673ms)
+ GET /api/admin/verifications 200 in 700ms (next.js: 15ms, application-code: 685ms)
+ GET /api/admin/verifications 200 in 953ms (next.js: 58ms, application-code: 894ms)
+ GET /api/admin/verifications 200 in 680ms (next.js: 13ms, application-code: 667ms)
+ GET /api/admin/verifications 200 in 715ms (next.js: 29ms, application-code: 686ms)
+ GET /api/admin/verifications 200 in 693ms (next.js: 23ms, application-code: 670ms)
+ GET /api/admin/verifications 200 in 682ms (next.js: 17ms, application-code: 665ms)
+ GET /api/admin/verifications 200 in 724ms (next.js: 42ms, application-code: 682ms)
+ GET /api/admin/verifications 200 in 702ms (next.js: 31ms, application-code: 671ms)
+ GET /api/admin/verifications 200 in 857ms (next.js: 18ms, application-code: 839ms)
+ GET /api/admin/verifications 200 in 728ms (next.js: 25ms, application-code: 703ms)
+ GET /api/admin/verifications 200 in 759ms (next.js: 47ms, application-code: 711ms)
+ GET /api/admin/verifications 200 in 704ms (next.js: 20ms, application-code: 684ms)
+ GET /api/admin/verifications 200 in 691ms (next.js: 17ms, application-code: 675ms)
+ GET /api/admin/verifications 200 in 746ms (next.js: 27ms, application-code: 719ms)
+ GET /api/admin/verifications 200 in 700ms (next.js: 23ms, application-code: 678ms)
+ GET /api/admin/verifications 200 in 866ms (next.js: 21ms, application-code: 845ms)
+ GET /api/admin/verifications 200 in 1465ms (next.js: 17ms, application-code: 1448ms)
+ GET /api/admin/verifications 200 in 709ms (next.js: 9ms, application-code: 700ms)
+ GET /api/admin/verifications 200 in 736ms (next.js: 35ms, application-code: 702ms)
+ GET /api/admin/verifications 200 in 713ms (next.js: 34ms, application-code: 680ms)
+ GET /api/admin/verifications 200 in 705ms (next.js: 12ms, application-code: 693ms)
+ GET /api/admin/verifications 200 in 742ms (next.js: 11ms, application-code: 730ms)
+ GET /api/admin/verifications 200 in 709ms (next.js: 23ms, application-code: 686ms)
+ GET /api/admin/verifications 200 in 866ms (next.js: 11ms, application-code: 854ms)
+ GET /api/admin/verifications 200 in 684ms (next.js: 25ms, application-code: 659ms)
+ GET /api/admin/verifications 200 in 710ms (next.js: 18ms, application-code: 693ms)
+ GET /api/admin/verifications 200 in 710ms (next.js: 11ms, application-code: 699ms)
+ GET /api/admin/verifications 200 in 722ms (next.js: 20ms, application-code: 703ms)
+ GET /api/admin/verifications 200 in 701ms (next.js: 19ms, application-code: 683ms)
+ GET /api/admin/verifications 200 in 700ms (next.js: 13ms, application-code: 686ms)
+ GET /api/admin/verifications 200 in 941ms (next.js: 10ms, application-code: 931ms)
+ GET /api/admin/verifications 200 in 742ms (next.js: 14ms, application-code: 728ms)
+ GET /api/admin/verifications 200 in 836ms (next.js: 68ms, application-code: 767ms)
+ GET /api/admin/verifications 200 in 716ms (next.js: 18ms, application-code: 697ms)
+ GET /api/admin/verifications 200 in 697ms (next.js: 22ms, application-code: 675ms)
+ GET /api/admin/verifications 200 in 708ms (next.js: 22ms, application-code: 687ms)
+ GET /api/admin/verifications 200 in 732ms (next.js: 25ms, application-code: 706ms)
+ GET /api/admin/verifications 200 in 1303ms (next.js: 39ms, application-code: 1264ms)
+ GET /api/admin/verifications 200 in 694ms (next.js: 12ms, application-code: 682ms)
+ GET /api/admin/verifications 200 in 734ms (next.js: 43ms, application-code: 691ms)
+ GET /api/admin/verifications 200 in 716ms (next.js: 19ms, application-code: 696ms)
+ GET /api/admin/verifications 200 in 687ms (next.js: 20ms, application-code: 667ms)
+ GET /api/admin/verifications 200 in 707ms (next.js: 13ms, application-code: 693ms)
+ GET /api/admin/verifications 200 in 682ms (next.js: 14ms, application-code: 668ms)
+ GET /api/admin/verifications 200 in 859ms (next.js: 24ms, application-code: 835ms)
+ GET /api/admin/verifications 200 in 680ms (next.js: 10ms, application-code: 670ms)
+ GET /api/admin/verifications 200 in 742ms (next.js: 18ms, application-code: 724ms)
+ GET /api/admin/verifications 200 in 712ms (next.js: 22ms, application-code: 691ms)
+ GET /api/admin/verifications 200 in 718ms (next.js: 28ms, application-code: 691ms)
+ GET /api/admin/verifications 200 in 705ms (next.js: 15ms, application-code: 690ms)
+ GET /api/admin/verifications 200 in 691ms (next.js: 20ms, application-code: 672ms)
+ GET /api/admin/verifications 200 in 1456ms (next.js: 11ms, application-code: 1446ms)
+ GET /api/admin/verifications 200 in 1392ms (next.js: 13ms, application-code: 1380ms)
+ GET /api/admin/verifications 200 in 5.6s (next.js: 1253ms, application-code: 4.4s)
+ GET /api/admin/verifications 200 in 3.6s (next.js: 130ms, application-code: 3.4s)
+ GET /api/admin/verifications 200 in 1410ms (next.js: 21ms, application-code: 1389ms)
+ GET /api/admin/verifications 200 in 1437ms (next.js: 19ms, application-code: 1417ms)
+ GET /api/admin/verifications 200 in 1847ms (next.js: 13ms, application-code: 1834ms)
+ GET /api/admin/verifications 200 in 1452ms (next.js: 13ms, application-code: 1439ms)
+ GET /api/admin/verifications 200 in 1044ms (next.js: 18ms, application-code: 1025ms)
+ GET /api/admin/verifications 200 in 1409ms (next.js: 10ms, application-code: 1400ms)
+ GET /api/admin/verifications 200 in 4.8s (next.js: 1734ms, application-code: 3.0s)
+ GET /api/admin/verifications 200 in 2.6s (next.js: 594ms, application-code: 1973ms)
+ GET /api/admin/verifications 200 in 1054ms (next.js: 26ms, application-code: 1028ms)
+ GET /api/admin/verifications 200 in 723ms (next.js: 30ms, application-code: 693ms)
+ GET /api/admin/verifications 200 in 710ms (next.js: 15ms, application-code: 695ms)
+ GET /api/admin/verifications 200 in 697ms (next.js: 20ms, application-code: 677ms)
+ GET /api/admin/verifications 200 in 942ms (next.js: 261ms, application-code: 681ms)
+ GET /api/admin/verifications 200 in 731ms (next.js: 24ms, application-code: 707ms)
+ GET /api/admin/verifications 200 in 736ms (next.js: 9ms, application-code: 727ms)
+ GET /api/admin/verifications 200 in 677ms (next.js: 15ms, application-code: 662ms)
+ GET /api/admin/verifications 200 in 710ms (next.js: 13ms, application-code: 697ms)
+ GET /api/admin/verifications 200 in 702ms (next.js: 19ms, application-code: 683ms)
+ GET /api/admin/verifications 200 in 684ms (next.js: 7ms, application-code: 677ms)
