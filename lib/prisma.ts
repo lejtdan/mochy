@@ -11,7 +11,11 @@ const prismaClientSingleton = () => {
   if (!connectionString) {
     console.warn('DATABASE_URL not found. Using placeholder for build phase.')
     return new PrismaClient({
-      datasourceUrl: "postgresql://postgres:password@localhost:5432/unused",
+      datasources: {
+        db: {
+          url: "postgresql://postgres:password@localhost:5432/unused"
+        }
+      }
     })
   }
 
@@ -22,11 +26,24 @@ const prismaClientSingleton = () => {
       ssl: { rejectUnauthorized: false }
     })
     const adapter = new PrismaPg(pool)
-    return new PrismaClient({ adapter, datasourceUrl: connectionString })
+    return new PrismaClient({ 
+      adapter,
+      datasources: {
+        db: {
+          url: connectionString
+        }
+      }
+    })
   } catch (e) {
     console.error('Error initializing Prisma with adapter:', e)
     // Fallback al cliente estándar si falla el adaptador
-    return new PrismaClient({ datasourceUrl: connectionString })
+    return new PrismaClient({ 
+      datasources: {
+        db: {
+          url: connectionString
+        }
+      } 
+    })
   }
 }
 
