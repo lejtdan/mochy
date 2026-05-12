@@ -55,7 +55,8 @@
       [
         "@rnmapbox/maps",
         {
-          "RNMapboxMapsImpl": "mapbox"
+          "RNMapboxMapsImpl": "mapbox",
+          "RNMapboxMapsDownloadToken": "MAPBOX_DOWNLOAD_TOKEN_PLACEHOLDER"
         }
       ]
     ],
@@ -65,7 +66,7 @@
       },
       "STRIPE_KEY": "STRIPE_PUBLIC_KEY_PLACEHOLDER",
       "MAPBOX_KEY": "MAPBOX_PUBLIC_KEY_PLACEHOLDER",
-      "API_URL": "https://mochy-backend.vercel.app"
+      "API_URL": "https://mochy-backend-496t.vercel.app"
     }
   }
 }

@@ -42,7 +42,8 @@ export async function POST(req: Request) {
     console.error('Error in register:', error)
     return NextResponse.json({ 
       error: 'Error interno del servidor',
-      details: process.env.NODE_ENV === 'development' ? error.message : undefined,
+      message: error.message,
+      stack: error.stack,
       code: error.code || 'UNKNOWN_ERROR'
     }, { status: 500 })
   }
